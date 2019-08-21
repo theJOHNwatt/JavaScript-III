@@ -4,7 +4,7 @@
 * 1. Window Binding: Used in global scope. If none of the other rules apply the `this` keyword, defaults to the window object. Unless you are in `strict mode` in which case it defaults to undefined.
 * 2. Implicit Binding: Most commonly used. After a function is invoked, to the left of the dot is the keyword it refers to. This is only used for objects and methods.
 * 3. New Binding: Uses the `new` keyword to create a new object and `this` points to it.
-* 4. Explicit Binding
+* 4. Explicit Binding: Whenever `call` or `apply` method is used, `this` becomes explicitly defined. You can override what the constructor objects get set to.
 *
 * write out a code example of each explanation above
 */
